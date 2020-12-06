@@ -8,7 +8,7 @@ module.exports = {
         destination: `${COMMUNITY_URL}/community`
       },
       {
-        source: '/blog/:path*',
+        source: '/community/:path*',
         destination: `${COMMUNITY_URL}/community/:path*`
       }
     ]
